@@ -1,0 +1,369 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;  
+ }
+ 
+ header{
+     background-color: #24282B;
+     display:flex;
+     height: 100px;
+     color: white;
+     justify-content: space-evenly;
+     border-bottom: 5px #1293D4 solid;
+     align-items: center;
+    
+ }
+ 
+ 
+ 
+ #azul{
+     color: #1293D4
+ }
+ #peque{
+     display:flex;
+     font-size:15;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 50%;
+     /* flex-direction: column; */
+     height: 100px;
+ }
+ h2{
+     font-size: 30px;
+ }
+ .expertos{
+     height: 50vh;
+     background-image: url(/images/cabecera.jpg);
+     background-attachment: fixed;
+     background-size: cover;
+     background-position: 100% 100%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     color: white;
+ 
+ }
+ h1{
+     font-size: 50px; 
+     margin-bottom: 30px;   
+ }
+ 
+ .suscribete{
+     display: flex;
+     background-color:#24282B;
+     height: 80px;
+     width: 100%;   
+     align-items: center;
+     justify-content: center;
+     justify-content: space-evenly;
+    
+ }
+ .suscribete h3{
+     display: flex;
+     justify-content: center;
+     width: 100%;
+ 
+     
+ }
+ 
+ #boton{
+     display:flex;
+     width: 100%;
+ 
+ }
+ 
+ #sus{
+     color: white;
+     font-size: 25px;
+     width: 100%;
+ }
+ 
+ input{
+     height: 40px;
+     width:290px;
+     
+ }
+ 
+ button{
+     height: 40px;
+     width: 120px;
+     background-color: #e8491D;
+     border: none;
+     color:white;
+     
+     
+     
+ }
+ 
+ .logos{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+  
+ }
+ 
+ .imagenes{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+ img{
+     width: 100px;
+ }
+ 
+ footer{
+     background-color:  #1293D4;
+     display: flex;
+     justify-content:center;
+     align-items: center;
+     color: white;
+     height: 14vh;
+ }
+ #lorem{
+     display:flex;
+     align-items: center;
+     text-align: center;
+     height: 90px;
+ }
+ 
+ .todo{
+     display:flex;
+     margin-right: 90px;
+     height: 650px;
+ }
+ 
+ .arriba{
+     display: flex;
+     flex-direction: column;
+     width: 57%;
+     padding: 20px;
+     align-items: center;
+     flex-wrap: wrap;
+ }
+ 
+ .lado{
+     width: 25%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     height: 25vh;
+ }
+ 
+ #nosotros{
+     margin-bottom: 10px;
+ }
+ 
+ .gris{
+     color: white;
+     background-color: #36434e;
+     height: 150px;
+     padding: 15px;
+     margin-top: 10px;
+ 
+ }
+ #img2{
+     width: 950px;
+     height: 300px;
+     margin-top: 10px;
+ }
+ 
+ .quehacemos{
+     display: flex;
+     background-color: #36434e;
+     justify-content:center;
+     justify-content: space-evenly;
+     flex-direction: column;
+      padding: 20px; 
+   
+ }
+ 
+ #quehacemos{
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 10px;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: white;
+ }
+ 
+ .ficha{
+     color: rgb(0, 0, 0);
+     background-color: #f0f0f0;
+     height: 180px;
+     padding: 15px;
+     margin-top: 10px;
+     width: 700px;
+     border: solid rgb(197, 196, 196) 1px;
+     display: flex;
+     flex-direction: column;
+     justify-content:center;
+ }
+ 
+ #contactoinput{
+     width: 800px;
+ }
+ 
+ #mensaje{
+     width: 800px;
+     height: 150px;
+ }
+ 
+ .form{
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 550px;
+ }
+ 
+ #boton_mensaje{
+     height: 40px;
+     width: 800px;
+     background-color: #e8491D;
+     border: solid gray 1px;
+     color:white;
+ }
+ 
+ #contacto{
+     font-size: 20px;
+ }
+ 
+ .lado2{
+     width: 25%;
+     display:flex;
+     justify-content: center;
+     align-items: center;
+     color:white;
+     flex-direction: column;
+ }
+ 
+ #mapa{
+     height: 280px;
+     width: 455px
+ }
+ 
+ @media (max-width:600px){
+     h1{
+         font-size: 40px;
+     }
+     #peque{
+         display: flex;
+         flex-direction: column;
+     }
+     .expertos p{
+         font-size: 15px;
+         width: 65%;
+         background-position: 100px ;
+     }
+     .expertos{
+         background-position: 70% 50%;
+     }
+     .Logos{
+             justify-content: space-between;
+     flex-direction: column; 
+     }
+     
+     h2{
+         font-size: 20px;
+     }
+     header{
+         width: 100%;
+         font-size: 13px;
+         flex-direction: column;
+         height: 210px;
+     }
+     header h2{
+         font-size: 50px;
+     }
+     .suscribete h3{
+         font-size: 30px;
+         width: 100%;
+         
+     }
+     .suscribete{
+         padding-left: 10px;
+         padding-right: 10px;
+         flex-direction: column;
+     }
+     #boton{
+         width: 50%;
+         display:flex;
+     }
+     #lorem{
+         font-size: 13px;
+     }
+     .todo p{
+         font-size: 13px;
+ 
+     }
+     .todo{
+         flex-direction: column;
+         width: 100%;
+         height: 100%;
+         padding: 20px;
+         flex-wrap: wrap;
+     }
+     .arriba{
+         height: 90%;
+         width: 400px;
+         flex-wrap: nowrap;
+     }
+     .lado{
+         height: 50%;
+         width: 100%;
+     }
+     .nosotros{
+         width: 100%;
+     }
+     .gris{
+         width: 100%;
+         padding: none;
+         margin-top: none;
+     }
+     #img2{
+         width: 100%;
+     }
+     .ficha{
+         width: 100%;
+     }
+     .lado2{
+         width: 100%;
+         margin-left: 13px;
+     }
+     .form{
+         width: 100%;
+     }
+     #contactoinput{
+         width: 100%;
+     }
+     #mensaje{
+         width: 100%;
+     }
+     #boton_mensaje{
+         width: 100%;
+     }
+     .quehacemos{
+         margin-bottom: 20px;
+     }
+ 
+     @media (min-width:350px){
+         header h2{
+            text-align: center;
+         }
+ 
+         .suscribete{
+             height: 150px;
+         }
+ 
+         .arriba{
+             width: 100%;
+         }
+     }
+ }
